@@ -626,6 +626,10 @@ button:focus {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+.prt_about_learnbox_year h1 {
+  color: #b5a7a7;
+}
 .prt_about_learnbox_right:after {
   content: "";
   position: absolute;
