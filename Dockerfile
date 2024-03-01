@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.8.10
 
 WORKDIR /app
 
@@ -8,6 +8,7 @@ RUN apt update
 RUN apt install gettext -y
 
 RUN pip install -r req.txt 
+
     
 
 EXPOSE 8080
