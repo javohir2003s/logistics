@@ -50,7 +50,6 @@ def order(request):
         truck_type = get_object_or_404(TruckType, id=truck_type)
 
         Order.objects.create(from_where=from_where,phone=phone , email=email ,to_where=to_where, weight=weight, when=when, truck_type=truck_type)
-
         return redirect('home')
 
     return redirect('home')

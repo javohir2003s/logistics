@@ -478,6 +478,7 @@ button:focus {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  text-decoration: none;
 }
 .prt_menu_wrapper a:hover {
   mask-image: linear-gradient(
@@ -721,7 +722,7 @@ button:focus {
 .prt_about_learnbox_year h1 {
   font-size: 30px;
   margin: 0px;
-  color: #202020;
+  color: #e3e2e2;
   font-weight: 500;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -778,6 +779,7 @@ button:focus {
 }
 .prt_about_learnbox_info p {
   margin: 0px;
+  color: #e3e2e2;
 }
 .prt_about_experience_wrapper {
   display: inline-block;
@@ -941,6 +943,7 @@ button:focus {
 }
 .prt_profile_details p {
   margin-bottom: 0px;
+  color: #e3e2e2;
 }
 /*---------- Contact Page css Start -------*/
 .prt_contact_wrapper {
@@ -1656,6 +1659,7 @@ button:focus {
   }
   .prt_mb_hamburger {
     display: block;
+    color: rgb(222, 215, 215);
   }
   .prt_profile_slider {
     padding-top: 0px;
