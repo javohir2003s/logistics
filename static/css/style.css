@@ -588,6 +588,7 @@ button:focus {
 }
 .prt_about_details p {
   margin-bottom: 30px;
+  color: rgb(205, 199, 199);
 }
 .prt_about_details a.prt_btn {
   margin-right: 20px;
@@ -625,11 +626,9 @@ button:focus {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  color: white!important;
 }
 
-.prt_about_learnbox_year h1 {
-  color: #b5a7a7!important;
-}
 .prt_about_learnbox_right:after {
   content: "";
   position: absolute;
