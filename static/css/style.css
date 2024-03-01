@@ -606,7 +606,7 @@ button:focus {
 .prt_about_learnsection:after {
   content: "";
   position: absolute;
-  background-color: #202020;
+  background-color: #ded3d3;
   width: 2px;
   top: 0;
   bottom: 0;
