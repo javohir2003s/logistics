@@ -628,7 +628,7 @@ button:focus {
 }
 
 .prt_about_learnbox_year h1 {
-  color: #b5a7a7;
+  color: #b5a7a7!important;
 }
 .prt_about_learnbox_right:after {
   content: "";
