@@ -123,10 +123,10 @@ USE_TZ = True
 
 
 LANGUAGES = (
-    ('uz', _('🇺🇿Uzbek')),
-    ('en', _('🇺🇸English')),
-    ('ru', _('🇷🇺Russian')),
-    ('tr', _('🇹🇷Turkiye')),
+    ('uz', _('🇺🇿 Uzbek')),
+    ('en', _('🇺🇸 English')),
+    ('ru', _('🇷🇺 Russian')),
+    ('tr', _('🇹🇷 Turkiye')),
 )
 
 LOCALE_PATHS = [
