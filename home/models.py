@@ -94,8 +94,8 @@ class Blog(TranslatableModel):
     translations = TranslatedFields(
         title = models.CharField(max_length=300, verbose_name='Заголовок'),
     )
-    image = models.ImageField(upload_to='blogs', verbose_name='Изображение')
-
+    image = models.ImageField(upload_to='blogs', verbose_name='Изображение', null=True, blank=True)
+    video = models.FileField(upload_to='blogs', verbose_name='Video', null=True, blank=True)
     # def save(self, *args, **kwargs):
     #     img = Image.open(self.image.path)
     #     new_size = (857, 539)

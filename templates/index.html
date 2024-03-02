@@ -528,17 +528,32 @@
 					<div class="prt_portfolio_box popup-gallery">
 						<div class="row">
 							{% for blog in blogs %}
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 prt_loadmore">
-								<a class="imageopen" href="{{ blog.image.url }}" title="">
-									<div class="prt_portfolio_img">
-										<img src="{{ blog.image.url }}" alt="{{ blog.title }}">
-										<div class="prt_portfolio_text">
-											<h4>{{ blog.title }}</h4>
-											<p>{{ blog.description }}</p>
+
+							{% if blog.image %}
+								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 prt_loadmore">
+									<a class="imageopen" href="{{ blog.image.url }}" title="">
+										<div class="prt_portfolio_img">
+											<img src="{{ blog.image.url }}" alt="{{ blog.title }}">
+											<div class="prt_portfolio_text">
+												<h4>{{ blog.title }}</h4>
+												<p>{{ blog.description }}</p>
+											</div>
 										</div>
-									</div>
-								</a>
-							</div>
+									</a>
+								</div>
+							{% elif blog.video %}
+								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 prt_loadmore">
+									<a class="imageopen" href="{{ blog.video.url }}" title="">
+										<div class="prt_portfolio_img">
+											<video src="{{ blog.video.url }}" alt="{{ blog.title }}">
+											<div class="prt_portfolio_text">
+												<h4>{{ blog.title }}</h4>
+												<p>{{ blog.description }}</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							{% endif %}
 							{% endfor %}
 						</div>
 					</div>
